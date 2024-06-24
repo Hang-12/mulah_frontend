@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.container {
+  text-align: center;
+}
+
+.company_name h1 {
+  font-size: 1.8rem;
+  color: #ea7713;
+  margin: 1rem 0;
+  font-weight: 900;
+}
+
+.title h3 {
+  color: grey;
+  font-size: 2.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 2px;
+  margin: 0 0 1rem 0;
+  font-weight: 500;
+  text-align: left;
+}
+
+.subtitle h5 {
+  color: grey;
+  margin-bottom: 1rem;
+  font-size: 1.0rem;
+  text-align: left;
+  font-style: italic;
+}
+
+.input_group {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.input_group label {
+  display: block;
+  font-weight: bold;
+  color: grey;
+}
+
+.no_email_label {
+  color: grey;
+  font-style: italic;
+  font-size: 1.0rem;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.birthday_inputs input {
+  width: 30%;
+  margin: 10px 5px;
+}
+
+input[type="checkbox"] {
+  width: auto;
+}
+
+.error_message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: -8px;
+  font-style: italic;
+}
+
+button {
+  padding: 14px 100px;
+  margin: 10px;
+  border: none;
+  border-radius: 25px;
+  background-color: #ea7713;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d36f0e;
+}
+
+hr {
+  width: 100%;
+  color: grey;
+  margin-top: 4rem;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 3rem;
+  color: grey;
+  font-size: 1.2rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(88, 119, 221);
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    width: 90%;
+  }
+}

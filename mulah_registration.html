@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MULAH</title>
+  <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+  <div class="container">
+    <div class="company_name">
+      <h1>MULAH</h1>
+    </div>
+    <div class="title">
+      <h3>Registration</h3>
+    </div>
+    <div class="subtitle">
+      <h5>Please fill up your details</h5>
+    </div>
+    <form id="registration_form">
+    <div class="input_group">
+      <label for="user_name">Name</label>
+      <input type="text" id="user_name" placeholder="Enter Name" required>
+      <p class="error_message">*Please insert a name</p>
+    </div>
+    <div class="input_group">
+      <label for="birthday_date">Birthday</label>
+        <div class="birthday_inputs">
+          <input type="text" id="birthday_day" placeholder="DD" maxlength="2" required>
+          <input type="text" id="birthday_month" placeholder="MM" maxlength="2" required>
+          <input type="text" id="birthday_year" placeholder="YYYY" maxlength="4" required>
+        </div>
+        <p class="error_message">*Please insert your birthday.</p>
+    </div>
+    <div class="input_group">
+      <label for="user_email">Email</label>
+      <input type="email" id="user_email" placeholder="Enter Email" required>
+      <p class="error_message">*Please insert a valid email address.</p>
+      <label class="no_email_label"><input type="checkbox" id="no_email"> No email address</label>
+    </div>
+    <div class="button_placing">
+      <button type="submit">Continue</button>
+    </div>
+  </form>
+    <hr>
+    <div class="footer">
+      <h5>Powered by <a href="https://www.mulahrewards.com/">MulahRewards.com</a></h5>
+    </div>
+    <script src="registration.js"></script>
+  </div>
+</body>
+</html>

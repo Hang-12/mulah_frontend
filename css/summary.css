@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.container {
+  text-align: center;
+}
+
+.company_name h1 {
+  font-size: 1.8rem;
+  color: #ea7713;
+  margin: 1rem 0;
+  font-weight: 900;
+}
+
+.title h3 {
+  color: grey;
+  font-size: 2.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 2px;
+  margin: 0 0 1rem 0;
+  font-weight: 500;
+}
+
+.messages {
+  color: grey;
+  margin: 2rem;
+  font-size: 1.2rem;
+  text-align: left;
+}

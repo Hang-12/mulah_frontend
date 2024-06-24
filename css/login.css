@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.container {
+  text-align: center;
+}
+
+.company_name h1 {
+  font-size: 2.5rem;
+  color: #ea7713;
+  margin: 4rem 0;
+  font-weight: 900;
+}
+
+.title h3{
+  color: grey;
+  font-size: 4.0rem;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 2px;
+  margin: 2rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+.subtitle h5{
+  color: orange;
+  margin: 3rem 2rem;
+  font-size: 1.0rem;
+  text-align: left;
+}
+
+.selection_phoneNo {
+  margin: 0 2rem;
+}
+
+select, input {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  background-color: #f9f9f9;
+  font-size: 1rem;
+}
+
+button {
+  padding: 14px 50px;
+  margin: 10px;
+  border: none;
+  border-radius: 25px;
+  background-color: #ea7713;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d36f0e;
+}
+
+hr {
+  width: 100%;
+  color: grey;
+  margin-top: 4rem;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 3rem;
+  color: grey;
+  font-size: 1.2rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(88, 119, 221);
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    width: 90%;
+  }
+}
